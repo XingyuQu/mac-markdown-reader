@@ -27,7 +27,7 @@ This project was vibe-coded with OpenAI Codex, then iterated locally to make it 
 
 ## Known Bugs
 
-- Split-view scroll sync is incomplete. `Preview -> Source` currently works more reliably than `Source -> Preview`.
+- Split-view scroll sync is incomplete. `Preview -> Source` works, but `Source -> Preview` is still not reliable in the current build.
 - Long documents with large tables or long code blocks can still drift out of alignment between panes.
 - Outline parsing intentionally skips fenced code blocks, but it is still not a full Markdown parser and may miss some edge cases.
 
