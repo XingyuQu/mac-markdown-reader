@@ -4,6 +4,13 @@ Native macOS Markdown reader built with SwiftUI and WebKit.
 
 This project was vibe-coded with OpenAI Codex, then iterated locally to make it runnable as a standalone macOS app bundle.
 
+## Vibe Coding Takeaways
+
+- Codex was effective for scaffolding the app, wiring the main architecture, and getting a native macOS prototype running quickly.
+- The process was not fully smooth for product-level details. Several UI behaviors and edge cases did not land correctly in one shot and needed multiple rounds of iteration.
+- The `Build macOS Apps` plugin helped with build, packaging, and general macOS workflow structure, but it did not remove the need for careful manual debugging of interaction details.
+- A major friction point was UI debugging. Without a tight real-time loop where Codex could continuously inspect and operate the app UI during debugging, some issues had to be manually verified and then reported back by the user (computer-use may help?).
+
 ## Implemented
 
 - Open a single Markdown file or an entire folder
