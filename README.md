@@ -1,6 +1,6 @@
 # Markdown Reader
 
-Native macOS Markdown reader built with SwiftUI and WebKit.
+Native macOS Markdown reader built with SwiftUI and WebKit. Mainly for the vibe-coding test.
 
 This project was vibe-coded with OpenAI Codex, then iterated locally to make it runnable as a standalone macOS app bundle.
 
